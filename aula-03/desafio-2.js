@@ -4,7 +4,6 @@ console.log("=== DESAFIO 2 - EVENTOS ===");
 const number = document.querySelector("#number");
 const less = document.querySelector("#less");
 const more = document.querySelector("#more");
-let value = 0;
 
 // Funcionalidades
 function doLess() {
