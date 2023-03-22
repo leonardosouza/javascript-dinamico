@@ -1,7 +1,7 @@
 console.log("=== CADASTRO PRODUTOS ===");
 
 // Buscando o elemento no DOM
-const btnCadastrar = document.querySelector(".btn-primary");
+// const btnCadastrar = document.querySelector(".btn-primary");
 const formCadastro = document.querySelector("form");
 
 // array literal (vazio)
@@ -61,5 +61,3 @@ function cadastrarProduto(e) {
 // Mapeando os eventos
 // btnCadastrar.addEventListener("click", cadastrarProduto);
 formCadastro.addEventListener("submit", cadastrarProduto);
-
-// cadastrarProduto(KeyboardEvent)
