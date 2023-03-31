@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "title": "JS Dinamico",
+      "author": "leonardo",
+      "id": 2
+    },
+    {
+      "title": "json-server",
+      "author": "typicode",
+      "id": 4
+    },
+    {
+      "title": "json-server",
+      "author": "typicode",
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

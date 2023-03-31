@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend da ultima aula",
+  "main": "index.js",
+  "scripts": {
+    "front": "lite-server"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "frontend"
+  ],
+  "author": "Leonardo Souza",
+  "license": "MIT",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

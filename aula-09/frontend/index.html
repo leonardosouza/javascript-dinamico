@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09 - Javascript Dinâmico</title>
+    <style>
+        body {
+            background: silver;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aula 09 - Javascript Dinâmico</h1>
+
+    <h2>Buscar</h2>
+    <hr>
+    <button id="buscar">GET - Buscar Blog Posts</button>
+    <div id="get-posts"></div>
+    <hr>
+
+
+    <h2>Gravar</h2>
+    <hr>
+    <textarea id="content" rows="5" cols="100">
+{
+    "title":"json-server",
+    "author":"typicode"
+}</textarea>
+    <br><br>
+    <button id="gravar">POST - Gravar um Blog Post</button>
+    <hr>
+
+
+    <hr>
+    <input type="text" id="number">
+    <br>
+    <button id="apagar">DELETE - Apagar um Blog Post</button>
+    <hr>
+
+    <script src="rest-api.js"></script>
+</body>
+
+</html>
